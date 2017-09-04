@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF3E9AC11F5DF597006439FE /* Initial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3E9AC01F5DF597006439FE /* Initial.storyboard */; };
+		BF3E9AC31F5DF7EF006439FE /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3E9AC21F5DF7EF006439FE /* TableCell.swift */; };
 		BF5970B91F5DED6C009535FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5970B81F5DED6C009535FC /* AppDelegate.swift */; };
 		BF5970BB1F5DED6C009535FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5970BA1F5DED6C009535FC /* ViewController.swift */; };
 		BF5970BE1F5DED6C009535FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5970BC1F5DED6C009535FC /* Main.storyboard */; };
 		BF5970C01F5DED6C009535FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5970BF1F5DED6C009535FC /* Assets.xcassets */; };
 		BF5970C31F5DED6C009535FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5970C11F5DED6C009535FC /* LaunchScreen.storyboard */; };
 		BF5970C81F5DED6C009535FC /* WatchGroupChallenge WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BF5970C71F5DED6C009535FC /* WatchGroupChallenge WatchKit App.app */; };
-		BF5970CE1F5DED6C009535FC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5970CC1F5DED6C009535FC /* Interface.storyboard */; };
 		BF5970D01F5DED6C009535FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5970CF1F5DED6C009535FC /* Assets.xcassets */; };
 		BF5970D71F5DED6C009535FC /* WatchGroupChallenge WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BF5970D61F5DED6C009535FC /* WatchGroupChallenge WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		BF5970DC1F5DED6C009535FC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5970DB1F5DED6C009535FC /* InterfaceController.swift */; };
+		BF5970DC1F5DED6C009535FC /* InitialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5970DB1F5DED6C009535FC /* InitialController.swift */; };
 		BF5970DE1F5DED6C009535FC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5970DD1F5DED6C009535FC /* ExtensionDelegate.swift */; };
 		BF5970E01F5DED6C009535FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5970DF1F5DED6C009535FC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF3E9AC01F5DF597006439FE /* Initial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Initial.storyboard; sourceTree = "<group>"; };
+		BF3E9AC21F5DF7EF006439FE /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		BF5970B51F5DED6C009535FC /* WatchGroupChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGroupChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5970B81F5DED6C009535FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5970BA1F5DED6C009535FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,11 +75,10 @@
 		BF5970C21F5DED6C009535FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5970C41F5DED6C009535FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5970C71F5DED6C009535FC /* WatchGroupChallenge WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchGroupChallenge WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5970CD1F5DED6C009535FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		BF5970CF1F5DED6C009535FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5970D11F5DED6C009535FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF5970D61F5DED6C009535FC /* WatchGroupChallenge WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchGroupChallenge WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5970DB1F5DED6C009535FC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		BF5970DB1F5DED6C009535FC /* InitialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialController.swift; sourceTree = "<group>"; };
 		BF5970DD1F5DED6C009535FC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		BF5970DF1F5DED6C009535FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5970E11F5DED6C009535FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,9 +138,9 @@
 		BF5970CB1F5DED6C009535FC /* WatchGroupChallenge WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				BF5970CC1F5DED6C009535FC /* Interface.storyboard */,
 				BF5970CF1F5DED6C009535FC /* Assets.xcassets */,
 				BF5970D11F5DED6C009535FC /* Info.plist */,
+				BF3E9AC01F5DF597006439FE /* Initial.storyboard */,
 			);
 			path = "WatchGroupChallenge WatchKit App";
 			sourceTree = "<group>";
@@ -146,7 +148,8 @@
 		BF5970DA1F5DED6C009535FC /* WatchGroupChallenge WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				BF5970DB1F5DED6C009535FC /* InterfaceController.swift */,
+				BF5970DB1F5DED6C009535FC /* InitialController.swift */,
+				BF3E9AC21F5DF7EF006439FE /* TableCell.swift */,
 				BF5970DD1F5DED6C009535FC /* ExtensionDelegate.swift */,
 				BF5970DF1F5DED6C009535FC /* Assets.xcassets */,
 				BF5970E11F5DED6C009535FC /* Info.plist */,
@@ -267,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5970D01F5DED6C009535FC /* Assets.xcassets in Resources */,
-				BF5970CE1F5DED6C009535FC /* Interface.storyboard in Resources */,
+				BF3E9AC11F5DF597006439FE /* Initial.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +298,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF3E9AC31F5DF7EF006439FE /* TableCell.swift in Sources */,
 				BF5970DE1F5DED6C009535FC /* ExtensionDelegate.swift in Sources */,
-				BF5970DC1F5DED6C009535FC /* InterfaceController.swift in Sources */,
+				BF5970DC1F5DED6C009535FC /* InitialController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,14 +334,6 @@
 				BF5970C21F5DED6C009535FC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		BF5970CC1F5DED6C009535FC /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF5970CD1F5DED6C009535FC /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -389,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
